@@ -1,0 +1,60 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #212529 !important;
+}
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+nav ul{
+    justify-content: space-evenly;
+}
+.btn-sendEmail{
+    background-color: #14A9BF !important;
+}
+nav .btn-contact{
+    background-color: #14A9BF;
+    transition: all .5s;
+}
+
+nav .btn-contact:focus{
+    box-shadow: none !important;
+    outline:  none !important;
+
+}
+nav .btn-contact:hover{
+   background: none;
+   color: white;
+   border: 1px solid #14A9BF;
+
+}
+
+.navbar-toggler{
+    box-shadow: none !important;
+    background-color: #14A9BF !important;
+}
+
+.content{
+    height: calc(100vh - 60px);
+}
+
+@media screen and (max-width:768px) {
+    nav ul{
+         margin: auto !important;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    nav .btn-contact{
+        width: 100%;
+    }
+    
+    
+}

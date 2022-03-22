@@ -1,0 +1,205 @@
+
+.main-content{
+ overflow: hidden;
+
+}
+.info{
+    display: flex;
+    align-content: center;
+    
+ }
+ 
+ .my-info{
+    width: 68%;
+    margin:90px auto;
+
+ }
+
+ @media screen and (max-width:800px) {
+    .my-info{
+        width: 80%;
+        margin:50px auto;
+
+     }
+     .coven-bro , .my-img{
+        position: absolute;
+        bottom: 0%;
+        height: 80% !important;
+        left: 50%;
+        transform: translateX(-50%); 
+        transition: all .5s;
+     
+      }
+     
+ }
+
+ .my-info h1 , .my-info h3{
+     font-weight: 1000;
+     font-size: 60px;
+
+ }
+
+ .my-info h3 span{
+   color: rgb(0, 183, 255);
+
+ }
+  
+  .imgs{
+   position: relative;
+   align-items: flex-end;
+   height: 91vh;
+   overflow: hidden;
+   margin-bottom: 120px;
+
+ }
+ 
+ .coven-bro , .my-img{
+   position: absolute;
+   bottom: 0%;
+   height: 100%;
+   left: 50%;
+   transform: translateX(-50%); 
+   transition: all .5s;
+
+ } 
+
+ .coven-bro:hover , .my-img:hover{
+    bottom: 2%;
+
+ }
+
+ .contacts img{
+     margin-left: 20px;
+     width: 30px;
+     height: 30px;
+
+ }
+
+.contacts img:hover{
+     transform: scale(1.2);
+
+ }
+
+ .all-skills{
+     justify-content: center;
+
+ }
+
+.card-img-top{
+     width: 70px !important;
+     height: 70px !important;
+     margin:7px auto;
+     border: 1px solid #14A9BF;
+     border-radius: 50% !important;
+     padding: 7px;
+
+ }
+
+.card{
+     width: 200px !important;
+     margin-left: 10px;
+     background-color: #434657 !important;
+
+ }
+
+.card-body p{
+     font-size: 12px !important;
+
+ }
+
+ .skills{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+ 
+ .some-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ .some-skills p, .some-skills h1{
+     text-align: left;
+     width: 80%;
+
+ }
+
+
+
+
+
+.portfolio-content{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   padding: 10px;
+   
+}
+
+.projects-title::before{
+        content: '';
+        position: relative;
+        bottom: 20%;
+        left: 8%;
+        width: 100px;
+        border-top: 3px solid #14A9BF;
+}
+.projects-title::before{
+    content: '';
+    position: relative;
+    bottom: 20%;
+    left: 8%;
+    width: 100px;
+    height: 100px;
+    border-left: 3px solid #14A9BF;
+}
+
+
+
+
+
+.portfolio{
+    padding: 5px;
+    overflow-x: hidden;
+}
+
+.portfolio-content img{
+    width:270px !important;
+    height: 270px !important;
+
+}
+.portfolio-content div{
+    width:300px;
+
+}
+
+
+.languges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.languges img{
+    width: 60px;
+    height: 60px;
+    transition: all .5s;
+}
+.languges img:hover{
+    transform: scale(1.2);
+}
+.icons-skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.btn-getScan{
+    /* background-color: #14A9BF !important; */
+    color: #14A9BF !important;
+}
