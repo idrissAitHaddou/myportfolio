@@ -1,5 +1,7 @@
 # portfolio
 
+our documentation : https://docs.google.com/presentation/d/1BIJvRUNom1etQ1dBZXuFihUmgyLca77W0Cz578dtHK0/edit#slide=id.p
+
 ## Project setup
 ```
 npm install
